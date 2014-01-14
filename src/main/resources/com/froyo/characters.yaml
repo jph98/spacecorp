@@ -1,0 +1,79 @@
+
+# Game Characters
+# http://www.yaml.org/refcard.html
+
+---
+
+number: 1
+type: architect
+name: Bossk
+color: red
+actions:
+  - !!com.froyo.domain.GameAction
+    description: AFTER action TAKE 2 CARDS
+  - !!com.froyo.domain.GameAction
+    description: BUILD 3 MODULES	
+
+---
+
+number: 2
+type: commander
+name: Hayes
+color: green
+actions:
+  - !!com.froyo.domain.GameAction
+    description: RECEIVE 2 LUNA for each INHABITANT
+  - !!com.froyo.domain.GameAction
+    description: WHEN COMMANDER called receive CROWN
+
+---
+
+number: 3
+type: assaultmarine
+name: Baxter
+color: yellow
+actions:
+  - !!com.froyo.domain.GameAction
+    description: AFTER action RECEIVE 2 LUNA for each DISTRICT
+  - !!com.froyo.domain.GameAction
+    description: OPTION to pay to destroy one MODULE
+
+---
+     
+number: 4
+type: assassin
+name: Firenze
+color: red
+actions:
+  - !!com.froyo.domain.GameAction
+    description: KILL CHARACTER who then misses their turn
+
+---
+     
+number: 5
+type: thief
+name: Drogo
+color: blue
+actions:
+  - !!com.froyo.domain.GameAction
+    description: STEAL LUNA from an announced CHARACTER
+
+---
+   
+number: 6
+type: sorcerer
+name: Grimskorn
+color: purple
+actions:
+  - !!com.froyo.domain.GameAction
+    description: TAKE card from any CHARACTER
+   
+---
+
+number: 7
+type: trader
+name: Jameson
+color: white
+actions:
+  - !!com.froyo.domain.GameAction
+    description: SWAP card with a CHARACTER 

@@ -1,0 +1,10 @@
+---
+# Starting Rules
+# http://www.yaml.org/refcard.html
+
+cards: 4
+luna: 2
+players: 2
+maxmodules: 10
+
+---

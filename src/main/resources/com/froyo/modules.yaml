@@ -1,0 +1,13 @@
+
+# Modules for the Space Station
+# http://www.yaml.org/refcard.html
+
+---
+
+name: factory
+gold: 6
+actions:
+  - !!com.froyo.domain.GameAction 
+	description: REDUCE MODULE cost by one
+
+---
