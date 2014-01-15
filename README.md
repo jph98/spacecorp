@@ -1,6 +1,8 @@
 spacecorp
 =========
 
+![Spacecorp Logo](logo.png)
+
 Overview
 --------
 
